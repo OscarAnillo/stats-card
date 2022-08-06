@@ -1,6 +1,6 @@
 export default function StatsComponent(){
     return (
-        <div>
+        <div className="stats">
             <div>
                 <h2>10k+</h2>
                 <p>Companies</p>
