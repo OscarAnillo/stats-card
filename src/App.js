@@ -1,10 +1,10 @@
 import './App.css';
+import CardContainer from './components/card-component';
 
 function App() {
   return (
     <div className="App">
-      <h1>Oscar Anillo</h1>
-      <p>Web UI Developer</p>
+      <CardContainer />
     </div>
   );
 }
