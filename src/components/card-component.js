@@ -3,7 +3,7 @@ import TextComponent from "./text-component";
 
 export default function CardContainer(){
     return (
-        <div className="card">
+        <div className="card row">
             <ImageComponent />
             <div className="card-container">
                 <TextComponent />

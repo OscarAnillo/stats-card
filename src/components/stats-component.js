@@ -9,13 +9,13 @@ export default function StatsComponent(){
             y: 300,
             opacity: 0,
             duration: 1,
-            ease: 'bounce'
+            ease: 'bounce',
         })
         gsap.to('.stats', {
             y: 0,
             opacity: 1,
             duration: 1,
-            ease: 'bounce'
+            ease: 'bounce',
         })
     }, []);
 
